@@ -1,11 +1,5 @@
 ﻿<#Script Info:
-Title of PowerShell script: CUCM CE and TC softawre API XMLcommands: delete CTL, disable provisioning, add TFTP/Subs, enabe provisioning and change password with success and failure output to separate text file
-Author: William Wallace and Mustafa Hashmi
-Cisco Advanced Services Customer Experience Collaboration Practice
-Company: Cisco
-Script finalized on November 14, 2018
-Base PowerShell script credit to PROJECTURI https://github.com/unifiedfx/Send-XCommand AUTHOR Stephen Welsh @stephenwelsh at UnifiedFX http://www.unifiedfx.com/ COPYRIGHT 2016 UnifiedFX. All rights reserved.
-
+ 
 To run script against a single device, press green play button in PowerShell ISE window then enter IP address of device to run script against.
 For issuing commands to multiple endpoints, update DeviceList.csv and copy and paste the following into the PowerShell CLI:
 
@@ -17,7 +11,7 @@ $devices."IP Address" | ?{$_} | %{.\PeripheralList.ps1 $_} | Tee-Object -file Li
 Param(
     [Parameter(Mandatory=$True,ValueFromPipeline=$True,Position=1)]$IPAddress,
     [Parameter(Mandatory=$False,Position=2)][string]$UserName="admin",
-    [Parameter(Mandatory=$False,Position=3)][string]$Password='tpc1sc0')
+    [Parameter(Mandatory=$False,Position=3)][string]$Password='cisco')
 
 Process{
     [Reflection.Assembly]::LoadWithPartialName("System.Xml.Linq") | Out-Null
