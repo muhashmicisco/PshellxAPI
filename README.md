@@ -1,5 +1,5 @@
 <b>Limitation of Liability: <br>
-You are fully responsible for your use of this script AND I am not liable for damages or losses arising from its use."<br>
+You are fully responsible for your use of this script AND I am not liable for damages or losses arising from its use.<br>
 <br></b>
 PshellxAPI<br>
 Powershell for using xAPI with Cisco Endpoints<br>
