@@ -4,7 +4,8 @@ You are fully responsible for your use of this script AND I am not liable for da
 PshellxAPI<br>
 Powershell for using xAPI with Cisco Endpoints<br>
 <br>
-To run script against a single device, press green play button in PowerShell ISE window then enter IP address of device to run script against.<br>
+Instructions:<br>
+Download all files in the repo. To run script against a single device, press green play button in PowerShell ISE window then enter IP address of device to run script against.<br>
 For issuing commands to multiple endpoints, update DeviceList.csv and copy and paste the following into the PowerShell CLI:<br>
 <p><b>
 $devices = import-csv -Path "DeviceList.csv"<br>
