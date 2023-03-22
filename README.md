@@ -18,7 +18,7 @@ Example of screen output:<br>
 <br>
 Example of output.csv:<br>
 <img src="https://user-images.githubusercontent.com/85717393/226969247-7d0ce7c8-e2e5-48e4-8740-6ddf9017f1c1.png">
-<br>
+<br><br>
 Troubleshooting:<br>
 Remember to enable execution of scripts if you get the following error:<br>
 <img src="https://user-images.githubusercontent.com/85717393/226980273-f3e65ce0-8253-484a-9ecc-a6e18acfc2ac.png">
