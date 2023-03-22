@@ -7,6 +7,8 @@ For issuing commands to multiple endpoints, update DeviceList.csv and copy and p
 $devices = import-csv -Path "DeviceList.csv"<br>
 $devices."IP Address" | ?{$_} | %{.\PeripheralList.ps1 $_} | Tee-Object -file Listoutput.txt<br></p>
 </b>
+A file named <b>Listoutput.txt<b> will be created to log the screen output, so you can view errors, etc.<br>
+<br>
 Remember to enable execution of scripts if you get the following error:<br>
 <b>.\PeripheralList.ps1 : File C:\PeripheralList.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see
 about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.</b><br><br>
