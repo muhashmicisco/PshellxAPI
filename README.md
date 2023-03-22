@@ -1,3 +1,6 @@
+Limitation of Liability: <br>
+You are fully responsible for your use of this script AND I am not liable for damages or losses arising from its use."<br>
+<br>
 PshellxAPI<br>
 Powershell for using xAPI with Cisco Endpoints<br>
 <br>
@@ -16,5 +19,8 @@ about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.</b><b
 To enable scripts run Powershell as an Administrator and execute the following:<br>
 <b>Set-ExecutionPolicy RemoteSigned</b><br>
 <br>
-Limitation of Liability: <br>
-You are fully responsible for your use of this script AND I am not liable for damages or losses arising from its use."
+Example of screen output:<br>
+![image](https://user-images.githubusercontent.com/85717393/226968647-fdc03bab-38df-47b1-8fa9-4efdc6e09346.png)
+<br>
+Example of output.csv:<br>
+![image](https://user-images.githubusercontent.com/85717393/226969247-7d0ce7c8-e2e5-48e4-8740-6ddf9017f1c1.png)
