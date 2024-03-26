@@ -3,13 +3,13 @@ Title of PowerShell script: Disable provisioning & output to separate text file
 Base PowerShell script credit to PROJECTURI https://github.com/unifiedfx/Send-XCommand AUTHOR Stephen Welsh @stephenwelsh at UnifiedFX http://www.unifiedfx.com/ COPYRIGHT 2016 UnifiedFX. All rights reserved.
 
 Use PowerShell Commands on lines 15 and 16, issue PowerShell Commands using $devices = then press enter. 
-Then use PowerShell command $devices."IP Address" and press enter for issuing mulitple commands to multiple endpoints.
+Then use PowerShell command $DeviceList."IP Address" and press enter for issuing mulitple commands to multiple endpoints.
 Note: 
-1. devices.csv file must reside in the same folder as this PowerShell Script 
+1. DeviceList.csv file must reside in the same folder as this PowerShell Script 
 2. that output text file will show up in same file directory as this PowerShell Script
 3. update the device password in this powershell script (line 21)
 
-$devices = import-csv -Path "devices.csv"
+$devices = import-csv -Path "DeviceList.csv"
 $devices."IP Address" | ?{$_} | %{.\provision_off.ps1 $_} | Tee-Object -file successandfailureoutput.txt
 
 To run script against a single device, press green play button in PowerShell ISE window then enter IP address of device to run script against.
