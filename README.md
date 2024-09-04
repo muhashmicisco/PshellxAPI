@@ -11,12 +11,12 @@ For issuing commands to multiple endpoints, update DeviceList.csv and copy and p
 $devices = import-csv -Path "DeviceList.csv"<br>
 $devices."IP Address" | ?{$_} | %{.\PeripheralList.ps1 $_} | Tee-Object -file Listoutput.txt<br></p>
 </b>
-A file named <b>Listoutput.txt<b> will be created to log the screen output, so you can view errors, etc.<br>
+Two new files will be created when this script runs. A file named <b>Listoutput.txt<b> will be created to log the screen output, so you can view errors, etc.<br>
 <br>
 Example of screen output:<br>
 <img src="https://user-images.githubusercontent.com/85717393/226981456-186a8de8-d36f-469b-8500-9de1d250b67a.png">
 <br>
-Example of output.csv:<br>
+And the content from the xApi will be tabulated in output.csv, example below:<br>
 <img src="https://user-images.githubusercontent.com/85717393/226969247-7d0ce7c8-e2e5-48e4-8740-6ddf9017f1c1.png">
 <br><br>
 Troubleshooting:<br>
