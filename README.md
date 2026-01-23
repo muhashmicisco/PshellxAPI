@@ -27,4 +27,7 @@ To enable scripts run Powershell as an Administrator and execute the following:<
 <b>Set-ExecutionPolicy RemoteSigned</b><br>
 <br>
 Cisco DX, Hub, Desk, Board devices unless connected to active peripherals will output null for the xAPI, exclude them from the device list if possible. The following error is expected to occur otherwise:<br>
-<img src="https://user-images.githubusercontent.com/85717393/226979775-f3ba9274-5153-4446-afee-7bcaea53a7bd.png">
+<img src="https://user-images.githubusercontent.com/85717393/226979775-f3ba9274-5153-4446-afee-7bcaea53a7bd.png"><br>
+<br>Script Ladder Diagram<br>
+<img width="2588" height="3708" alt="image" src="https://github.com/user-attachments/assets/45390ef8-df43-4a5b-8521-4f02994f2f8f" />
+
